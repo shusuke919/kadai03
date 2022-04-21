@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  
+  <header>
+    <h1>Playlist</h1>
+    </header>
+    <main>
+        <div class="searchArea" id="makeImg">
+            <input type="text" id="word" class="searchText" placeholder="曲名、アーティスト名など"> 
+            <div class="searchButton">
+                    <img src="img/search.jpeg" width="100" height="70" class="searchImg" id="search">
+            </div>
+        </div>
+        
+    
+        <div class="view">
+                <input type="button" value="お気に入り表示" width="150px" id="favorite">
+                <div id="modal-main">
+                  <input type="button" value="お気に入り全て削除" width="150px" id="close">
+                </div>
+        </div>
+       
+        <div class="result">
+            <table id="tb">
+                <thead id="head">
+                </thead>
+                <tbody id="data"></tbody>
+            </table>
+        </div>
+    </main>
+
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+
+

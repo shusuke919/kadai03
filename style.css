@@ -1,0 +1,16 @@
+header{
+  text-align: center;
+}
+
+
+
+main{
+
+  text-align: center;
+}
+
+.result{
+  
+  display: flex;
+  justify-content: center;
+}
